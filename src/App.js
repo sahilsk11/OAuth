@@ -11,6 +11,7 @@ function App() {
 		onFailure={(response) => { console.log(response) }}
 		cookiePolicy={'single_host_origin'}
 		isSignedIn={true}
+		
 	/>;
 	return (
 		<div>
